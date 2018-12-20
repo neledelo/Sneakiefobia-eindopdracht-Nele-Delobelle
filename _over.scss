@@ -1,0 +1,303 @@
+//_over.scss
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+
+/* COLORS */
+
+$grey:#EBEBEB;
+$blue: #4B5E7B;
+$blue2: #323F52;
+$orange: #FA9448;
+$yellow: #FFE867;
+$red: #D55A4F;
+
+/* FONTS */
+$font: 'Montserrat', sans-serif;
+
+.active{
+    font-weight: 800;
+}
+
+/* LINKERHELFT */
+
+
+.strook {
+background-color:$blue;
+height: 640px;
+z-index: 0;
+
+@media (min-width: 500px) {
+    height: 700px;
+}
+
+@media (min-width: 600px) {
+    height: 750px;
+}
+
+@media (min-width: 690px) {
+    height: 800px;
+}
+
+
+  
+    img{
+        width:90%;
+        margin-left: 10px; 
+        margin-top: 60px;
+        padding-bottom: 20px;
+
+        
+    }
+
+    h2{
+        font-weight: 800;
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 10px;
+
+    }
+
+    p{
+        color:white;
+        padding: 40px;
+        padding-top: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    li{
+        list-style-type: none;
+         text-align: center;
+         font-weight: 200;
+    }
+    
+    a{
+        color: $blue;
+        font-weight: 800;
+        background-color: white;
+        padding: 15px; 
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+
+    }
+
+    a:hover{
+        color: white;
+        background-color: #EBAF65;
+        
+    }
+}
+
+/* RECHTERHELFT */
+
+.txt {
+    padding: 60px;
+    padding-top: 2px;
+    position: relative;
+
+
+    h1{
+        font-weight: 800;
+        color: $blue;
+        font-size: 36px;
+        padding:0;
+    }
+
+    h2{
+        font-weight: 800;
+        color:$blue2;
+        font-size: 26px;
+
+
+    }
+
+    p{
+        line-height: 1,5em;
+        font-weight: 300;
+        padding-bottom: 15px;
+        padding:0;
+    }
+    
+    img{
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        @media (min-width: 768px) {
+            width: 10px;
+        }
+        
+        }
+    
+    .veters{
+        img{
+
+        display:none;
+            @media (min-width: 1350px) {
+                display: block;
+                width: 30%;
+                position: absolute;
+                right: -3%;
+                top: 55%;   
+                            }            
+
+
+        }
+    }
+}
+
+
+.symptomen{
+    h2{
+        margin-top: 20px;
+
+        @media (min-width: 1350px) {
+            margin-top: 0;   
+                        }            
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width:768px) {
+    .vast {
+        position: fixed;
+    }
+.strook{
+    height: 880px;
+}
+.txt {
+    padding: 100px;
+    padding-top: 10px;
+    padding-left: 35px;
+    position: relative;
+    left: 35%;  
+
+    img{
+    width: 0%;
+    }
+   
+
+    p{
+        line-height: 1,5em;
+        font-weight: 300;
+        padding-bottom: 15px;
+    }
+
+   
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Large devices (tablets, 1350px and up)*/
+
+@media (min-width:1350px) {
+
+    /* LINKERHELFT */
+
+    
+.strookje{
+    background-color: #4B5E7B;
+    height: 150px;
+     
+}
+
+.strook {
+    background-color:$blue;
+    height: 880px;
+    
+        img{
+            width:90%;
+            margin-left: 10px; 
+            margin-top: 0px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-size: 26px;
+            text-align: center;
+            margin-top: 0px;
+            padding-bottom: 0;
+        }
+    
+        p{
+            padding: 40px;
+            padding-top: 0;
+            font-weight: 300;
+            text-align:center;
+        }
+    
+        li{
+            text-align: center;
+        }
+        
+        a{
+            padding: 15px; 
+            border-radius: 40px;
+            padding-left: 30px;
+            padding-right: 30px;   
+        }
+    
+    }
+    
+
+    /*RECHTERHELFT*/
+    
+    .txt {
+        padding: 100px;
+        padding-top: 60px;
+        position: relative;
+        left: 35%;  
+
+        img{
+            width: 300px;
+            position: absolute;
+            right: 10%;
+            top: 7%;
+        }
+        h1{
+            font-weight: 800;
+        }
+    
+        h2{
+            font-weight: 800;
+            font-size: 26px;
+        }
+    
+        p{
+            line-height: 1,5em;
+            width: 60%;
+            font-weight: 300;
+            padding-bottom: 15px;
+        }
+
+        li{
+            width: 70%;
+            font-weight: 200;
+        }
+    }
+
+}

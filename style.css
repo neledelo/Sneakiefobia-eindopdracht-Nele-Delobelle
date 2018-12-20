@@ -1,0 +1,1168 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* COLORS */
+/* FONTS */
+/* JUMBOTRON */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+.jumbotrongeel {
+  background-color: #FCD61D;
+  height: 470px;
+}
+
+.jumbotrongeel img {
+  width: 75%;
+  margin-left: 30px;
+}
+
+.jumbotrongeel h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 30px;
+  width: 50%;
+  margin-left: 20px;
+  padding-bottom: 0;
+  margin-top: 50px;
+}
+
+.jumbotrongeel p {
+  line-height: 1,5em;
+  font-weight: 300;
+  padding-top: 0;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.jumbotrongeel a {
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 40px;
+  padding: 13px;
+  text-transform: uppercase;
+}
+
+.jumbotrongeel a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*SAMENKOMSTEN*/
+.samenkomsten {
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 550px) {
+  .samenkomsten {
+    margin-top: 200px;
+  }
+}
+
+.samenkomsten h3 {
+  font-weight: 700;
+  color: #FCD61D;
+}
+
+.samenkomsten p {
+  padding-right: 10px;
+}
+
+/*CARDS KALENDER*/
+.agenda {
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.agenda img {
+  width: 100%;
+}
+
+.agenda h3 {
+  font-weight: 700;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.agenda p {
+  padding: 20px;
+  padding-top: 0;
+}
+
+/*JUMBOTRON TWEE*/
+.jumbotronwordlid {
+  background-color: #FCD61D;
+  margin-top: 0;
+  padding-bottom: 40px;
+}
+
+.jumbotronwordlid h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 30px;
+  width: 50%;
+  margin-left: 30px;
+  padding-bottom: 0;
+  margin-top: 40px;
+}
+
+@media (min-width: 570px) {
+  .jumbotronwordlid h1 {
+    width: 80%;
+  }
+}
+
+.jumbotronwordlid p {
+  line-height: 1,5em;
+  font-weight: 300;
+  padding-top: 0;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.form {
+  padding: 15px;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.form .balk {
+  width: 60%;
+  margin: 0;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .form .balk {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 2px;
+  }
+}
+
+.form .submit {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.wordlid img {
+  width: 30%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .wordlid img {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+}
+
+button.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-left: 20px;
+}
+
+/*FOOTER*/
+@media (min-width: 768px) {
+  .footerhulp {
+    margin-top: -300px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 1000px) {
+  .jumbotrongeel {
+    margin-top: 0;
+    height: 550px;
+  }
+  .jumbotrongeel img {
+    width: 65%;
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+  .jumbotrongeel h1 {
+    font-weight: 800;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    margin-left: 80px;
+    padding-bottom: 0;
+    margin-top: 80px;
+  }
+  .jumbotrongeel p {
+    line-height: 1,5em;
+    font-weight: 300;
+    padding-top: 0;
+    width: 80%;
+    margin-left: 80px;
+  }
+  .jumbotrongeel a {
+    margin-left: 80px;
+  }
+  /*SAMENKOMSTEN*/
+  .samenkomsten {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+  }
+  .samenkomsten p {
+    padding-right: 10px;
+    width: 50%;
+  }
+  /*CARDS KALENDER*/
+  .agenda {
+    margin-bottom: 20px;
+  }
+  .agenda p {
+    padding: 0;
+    padding-bottom: 45px;
+    font-size: 14px;
+  }
+  .agenda h3 {
+    padding: 0;
+    padding-top: 15px;
+  }
+  /*JUMBOTRON TWEE*/
+  .jumbotronwordlid {
+    margin-top: 20px;
+  }
+  .jumbotronwordlid h1 {
+    font-size: 50px;
+    width: 90%;
+    margin-left: 80px;
+    margin-bottom: 0;
+    margin-top: 60px;
+  }
+  .jumbotronwordlid p {
+    line-height: 1,5em;
+    font-weight: 300;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 80px;
+    padding-bottom: 50px;
+  }
+  .jumbotronwordlid .form {
+    padding: 15px;
+    margin-top: 80px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .jumbotronwordlid .form .balk {
+    width: 70%;
+  }
+  .wordlid img {
+    width: 60%;
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+}
+
+.form .submit {
+  margin-left: 0px;
+}
+
+/* COLORS */
+/* FONTS */
+/* LINKERKANT*/
+.strookjeoranje {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .strookjeoranje {
+    background-color: #FA9448;
+    height: 200px;
+  }
+}
+
+.strooktwee {
+  background-color: #FA9448;
+  height: 650px;
+}
+
+.strooktwee img {
+  width: 80%;
+  margin-left: 49px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.strooktwee h2 {
+  font-weight: 800;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.strooktwee p {
+  color: white;
+  padding: 40px;
+  padding-top: 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.strooktwee li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.strooktwee a {
+  color: #FA9448;
+  font-weight: 800;
+  background-color: white;
+  padding: 15px;
+  border-radius: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.strooktwee a:hover {
+  color: white;
+  background-color: #F9BB91;
+}
+
+.intro {
+  padding: 20px;
+}
+
+.intro h1 {
+  color: #FA9448;
+  font-weight: 800;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.intro img {
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.kolommen {
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.kolommen h3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  background-color: #FA9448;
+  border-radius: 30px;
+  width: 80%;
+  text-align: center;
+  padding: 15px;
+}
+
+.kolommen p {
+  padding-left: 0;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0;
+  margin-left: 10px;
+  padding-bottom: 50px;
+}
+
+.footerwatnu {
+  margin-top: -30px;
+}
+
+@media (min-width: 768px) {
+  .footerwatnu {
+    margin-top: -300px;
+  }
+}
+
+/* Small devices (smartphones, 515px and up*/
+@media (min-width: 515px) {
+  .strooktwee {
+    color: #FA9448;
+    height: 750px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .strookjetwee {
+    background-color: #FA9448;
+    height: 200px;
+  }
+  .strooktwee {
+    color: #FA9448;
+    height: 880px;
+  }
+  .strooktwee img {
+    margin-top: 80px;
+    width: 70%;
+    margin-left: 40px;
+  }
+  .intro h1 {
+    color: #FA9448;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .intro p {
+    margin-left: 20px;
+  }
+  .intro img {
+    width: 0%;
+    margin: 0;
+  }
+  .kolommen {
+    margin: 0;
+    margin-left: 20px;
+  }
+  .kolommen h3 {
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    background-color: #FA9448;
+    border-radius: 30px;
+    margin-bottom: 0;
+  }
+  .kolommen p {
+    margin: 0;
+    margin-right: 0px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
+}
+
+/* Large devices (tablets, 992px and up)*/
+@media (min-width: 992px) {
+  .intro {
+    position: relative;
+  }
+  .intro img {
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+  }
+  .kolommen h3 {
+    margin-top: 20px;
+  }
+}
+
+/* Extra large devices (tablets, 1125px and up)*/
+@media (min-width: 1125px) {
+  .intro {
+    position: relative;
+  }
+  .intro img {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+  .intro h1 {
+    font-size: 45px;
+    margin-top: 60px;
+  }
+  .kolommen h3 {
+    margin-top: 50px;
+  }
+}
+
+/* Extra large devices (tablets, 1125px and up)*/
+@media (min-width: 1300px) {
+  .intro {
+    position: relative;
+  }
+  .intro img {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+  }
+  .intro h1 {
+    font-size: 45px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1300px) and (min-width: 1600px) {
+  .intro h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .kolommen {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1300px) and (min-width: 1600px) {
+  .kolommen {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .kolommen h3 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+}
+
+button.btn.btn-primary {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-left: 5px;
+}
+
+/* COLORS */
+/* FONTS */
+.active {
+  font-weight: 800;
+}
+
+/* LINKERHELFT */
+.strook {
+  background-color: #4B5E7B;
+  height: 640px;
+  z-index: 0;
+}
+
+@media (min-width: 500px) {
+  .strook {
+    height: 700px;
+  }
+}
+
+@media (min-width: 600px) {
+  .strook {
+    height: 750px;
+  }
+}
+
+@media (min-width: 690px) {
+  .strook {
+    height: 800px;
+  }
+}
+
+.strook img {
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.strook h2 {
+  font-weight: 800;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.strook p {
+  color: white;
+  padding: 40px;
+  padding-top: 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.strook li {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 200;
+}
+
+.strook a {
+  color: #4B5E7B;
+  font-weight: 800;
+  background-color: white;
+  padding: 15px;
+  border-radius: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.strook a:hover {
+  color: white;
+  background-color: #EBAF65;
+}
+
+/* RECHTERHELFT */
+.txt {
+  padding: 60px;
+  padding-top: 2px;
+  position: relative;
+}
+
+.txt h1 {
+  font-weight: 800;
+  color: #4B5E7B;
+  font-size: 36px;
+  padding: 0;
+}
+
+.txt h2 {
+  font-weight: 800;
+  color: #323F52;
+  font-size: 26px;
+}
+
+.txt p {
+  line-height: 1,5em;
+  font-weight: 300;
+  padding-bottom: 15px;
+  padding: 0;
+}
+
+.txt img {
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .txt img {
+    width: 10px;
+  }
+}
+
+.txt .veters img {
+  display: none;
+}
+
+@media (min-width: 1350px) {
+  .txt .veters img {
+    display: block;
+    width: 30%;
+    position: absolute;
+    right: -3%;
+    top: 55%;
+  }
+}
+
+.symptomen h2 {
+  margin-top: 20px;
+}
+
+@media (min-width: 1350px) {
+  .symptomen h2 {
+    margin-top: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .vast {
+    position: fixed;
+  }
+  .strook {
+    height: 880px;
+  }
+  .txt {
+    padding: 100px;
+    padding-top: 10px;
+    padding-left: 35px;
+    position: relative;
+    left: 35%;
+  }
+  .txt img {
+    width: 0%;
+  }
+  .txt p {
+    line-height: 1,5em;
+    font-weight: 300;
+    padding-bottom: 15px;
+  }
+}
+
+/* Large devices (tablets, 1350px and up)*/
+@media (min-width: 1350px) {
+  /* LINKERHELFT */
+  .strookje {
+    background-color: #4B5E7B;
+    height: 150px;
+  }
+  .strook {
+    background-color: #4B5E7B;
+    height: 880px;
+  }
+  .strook img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  .strook h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 0;
+  }
+  .strook p {
+    padding: 40px;
+    padding-top: 0;
+    font-weight: 300;
+    text-align: center;
+  }
+  .strook li {
+    text-align: center;
+  }
+  .strook a {
+    padding: 15px;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /*RECHTERHELFT*/
+  .txt {
+    padding: 100px;
+    padding-top: 60px;
+    position: relative;
+    left: 35%;
+  }
+  .txt img {
+    width: 300px;
+    position: absolute;
+    right: 10%;
+    top: 7%;
+  }
+  .txt h1 {
+    font-weight: 800;
+  }
+  .txt h2 {
+    font-weight: 800;
+    font-size: 26px;
+  }
+  .txt p {
+    line-height: 1,5em;
+    width: 60%;
+    font-weight: 300;
+    padding-bottom: 15px;
+  }
+  .txt li {
+    width: 70%;
+    font-weight: 200;
+  }
+}
+
+/* COLORS */
+/* FONTS */
+.rodebanner {
+  background-color: #D55A4F;
+  padding-bottom: 0;
+}
+
+.rodebanner img {
+  width: 90%;
+  margin-top: 60px;
+}
+
+@media (min-width: 1250px) {
+  .rodebanner img {
+    margin-top: 130px;
+    width: 80%;
+  }
+}
+
+.rodebanner .tekst h5 {
+  color: white;
+  font-size: 30px;
+  font: "Montserrat", sans-serif;
+  margin-top: 35px;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.rodebanner .tekst p {
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.contactgegevens {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.contactgegevens .contact i {
+  font-size: 25px;
+}
+
+.contactgegevens a {
+  color: black;
+}
+
+/*FOOTER*/
+.footercontact {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .footercontact {
+    margin-top: -220px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .rodebanner {
+    background-color: #D55A4F;
+    padding-bottom: 0;
+    height: 450px;
+    position: relative;
+  }
+  .rodebanner .tekst {
+    position: absolute;
+    right: 5%;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1300px) {
+  .rodebanner .tekst {
+    top: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  .rodebanner .tekst h5 {
+    text-align: right;
+    padding-bottom: 0;
+  }
+  .rodebanner .tekst p {
+    margin-left: 30px;
+    text-align: right;
+    padding-top: 0;
+  }
+  .contactgegevens {
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  .contactgegevens .contact i {
+    font-size: 25px;
+  }
+}
+
+/* COLORS */
+/* FONTS */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.active {
+  font-weight: 300;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+/* NAVIGATION */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  position: relative;
+  background-color: white;
+  height: 110px;
+}
+
+.sticky-top .navbarlinks a {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .sticky-top .navbarlinks a {
+    display: block;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.sticky-top .navbarlinkswit a {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .sticky-top .navbarlinkswit a {
+    display: block;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.sticky-top .navbar {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.sticky-top .bg-navigation {
+  background-color: white;
+}
+
+.sticky-top .nav-item {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.sticky-top .nav-item a:hover {
+  font-weight: 500;
+}
+
+.sticky-top button.navbar-toggler {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sticky-top div.col-sm-12.col-md-5 {
+  padding: 0;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron img {
+  width: 100%;
+}
+
+.jumbotron h1 {
+  font-weight: 800;
+  margin-top: 60px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.jumbotron h4 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  color: black;
+}
+
+.jumbotron p {
+  font-weight: 200;
+  font-size: 14px;
+  padding-top: 10px;
+  color: black;
+}
+
+.jumbotron li {
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.jumbotron a {
+  color: white;
+  font-weight: 800;
+  background-color: black;
+  padding: 15px;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: white;
+  height: 150px;
+  position: relative;
+  margin-top: 0;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    height: 50px;
+  }
+}
+
+.footer .txtfooter h4 {
+  color: black;
+  padding: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.footer .icons {
+  color: black;
+  font-size: 24Px;
+}
+
+.footer .icons a {
+  padding-left: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    height: 140px;
+  }
+  .jumbotron {
+    background-color: transparent;
+    height: 400px;
+    padding-top: 50px;
+    margin-top: 0px;
+    position: relative;
+  }
+  .jumbotron img {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    padding: 0;
+  }
+  .jumbotron h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    margin-top: 0;
+    padding: 0;
+  }
+  .jumbotron h4 {
+    font-size: 15px;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    text-align: right;
+  }
+  .jumbotron p {
+    font-weight: 200;
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    text-align: right;
+    width: 90%;
+  }
+  .jumbotron a {
+    position: absolute;
+    right: 4%;
+    top: 110%;
+  }
+  .footer {
+    margin-top: 270px;
+    height: 80px;
+    background-color: white;
+  }
+  .footer .txtfooter h4 {
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .icons {
+    font-size: 24Px;
+    padding: 10px;
+    position: relative;
+  }
+  .icons i {
+    padding-left: 35px;
+  }
+  .icons .socialmedia {
+    position: absolute;
+    right: 10%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .jumbotron .tekst {
+    margin-top: 50px;
+  }
+  .jumbotron .tekst h4 {
+    top: 38%;
+  }
+}
+
+/* Large devices (tablets, 1250px and up)*/
+@media (min-width: 1250px) {
+  .bg-navigation {
+    background-color: white;
+    position: relative;
+    position: absolute;
+    right: 4%;
+    top: 20px;
+  }
+  .jumbotron {
+    background-color: transparent;
+    padding-top: 50px;
+    margin-top: 0px;
+    position: relative;
+  }
+  .jumbotron img {
+    margin-top: 10px;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    padding: 0;
+  }
+  .jumbotron h1 {
+    font-size: 70px;
+    position: absolute;
+    right: 25%;
+    padding-top: 40px;
+  }
+  .jumbotron h4 {
+    font-size: 20px;
+    position: absolute;
+    right: 25%;
+    padding-top: 65px;
+  }
+  .jumbotron p {
+    font-weight: 200;
+    position: absolute;
+    right: 25%;
+    padding-top: 90px;
+    text-align: right;
+    width: 70%;
+    font-size: 16px;
+  }
+  .jumbotron a {
+    position: absolute;
+    top: 155%;
+    right: 24%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

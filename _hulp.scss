@@ -1,0 +1,335 @@
+//_hulp.scss
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+
+/* COLORS */
+
+$grey:#EBEBEB;
+$blue: #4B5E7B;
+$orange: #FA9448;
+$yellow: #FFE867;
+$red: #D55A4F;
+
+/* FONTS */
+$font: 'Montserrat', sans-serif;
+
+
+
+/* JUMBOTRON */
+
+.jumbotrongeel {
+    background-color: #FCD61D;
+    height: 470px;
+
+    img{
+        width: 75%;
+        margin-left: 30px;
+    }
+
+    h1{
+        font-weight: 800;
+        color: white;
+        font-size: 30px;
+        width: 50%;
+        margin-left: 20px;
+        padding-bottom: 0;
+        margin-top: 50px;
+    }
+
+
+    p{
+        line-height: 1,5em;
+        font-weight: 300;
+        padding-top:0;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    a{
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 800;
+        text-decoration: none;
+        background-color: white;
+        color:black;
+        border-radius: 40px;
+        padding: 13px;
+        text-transform: uppercase;
+
+    }
+
+    a:hover{
+        background-color: black;
+        color:white;
+    }
+}
+
+/*SAMENKOMSTEN*/
+
+.samenkomsten{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+    @media (min-width: 550px) {
+        margin-top: 200px;
+
+    }
+
+    h3{
+        font-weight: 700;
+        color:  #FCD61D;
+    }
+
+    p{
+        padding-right: 10px;
+    }
+
+}
+
+/*CARDS KALENDER*/
+
+.agenda{
+
+    background-color: transparent;
+    margin-bottom: 30px;
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        font-weight: 700; 
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    p{
+        padding: 20px;
+        padding-top:0;
+    }
+}
+
+/*JUMBOTRON TWEE*/
+
+.jumbotronwordlid{
+    background-color: #FCD61D;
+    margin-top:0;
+    padding-bottom: 40px;
+
+    h1{
+        font-weight: 800;
+        color: white;
+        font-size: 30px;
+        width: 50%;
+        margin-left: 30px;
+        padding-bottom: 0;
+        margin-top: 40px;
+
+        @media (min-width: 570px) {
+            width: 80%;
+
+        }
+
+
+    }
+
+
+    p{
+        line-height: 1,5em;
+        font-weight: 300;
+        padding-top:0;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        padding-right: 20px;
+    }
+}
+
+.form{
+    padding: 15px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top:0;
+
+    .balk{
+        width: 60%;
+        margin: 0;
+        margin-left: 20px;
+        @media (min-width: 768px) {
+            width: 100%;
+            margin-top: 30px;
+            margin-left: 2px;
+
+        }
+    }
+
+    .submit{
+        margin-top: 35px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+
+    }
+
+}
+
+.wordlid {
+    img{
+        width: 30%;
+        margin-left: 120px;
+        margin-top: 30px;
+
+        @media (min-width: 768px) {
+            width: 80%;
+            margin-left: 20px;
+            margin-top: 80px;
+        }
+    }
+}
+
+
+button.btn.btn-primary{
+    background-color: white;
+    color: black;
+    border:none;
+    margin-left:20px;
+}
+
+
+/*FOOTER*/
+
+.footerhulp{
+
+    @media(min-width: 768px){
+        margin-top: -300px;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 1000px) {
+
+    .jumbotrongeel {
+       margin-top:0;
+        height: 550px;
+    
+        img{
+            width: 65%;
+            margin-top: 250px;
+            margin-left: 100px;
+        }
+    
+        h1{
+            font-weight: 800;
+            color: white;
+            font-size: 50px;
+            width: 50%;
+            margin-left: 80px;
+            padding-bottom: 0;
+            margin-top: 80px;
+        }
+    
+    
+        p{
+            line-height: 1,5em;
+            font-weight: 300;
+            padding-top:0;
+            width: 80%;
+            margin-left: 80px;
+        }
+
+        a{
+            margin-left: 80px;
+        }
+
+    }
+
+    /*SAMENKOMSTEN*/
+
+    .samenkomsten{
+        margin-top: 80px;
+        margin-left: 80px;
+        margin-bottom: 70px;
+
+    p{
+        padding-right: 10px;
+        width: 50%;
+    }
+
+}
+
+/*CARDS KALENDER*/
+
+.agenda{
+    margin-bottom: 20px;
+
+    p{
+    padding:0;
+    padding-bottom: 45px;
+    font-size: 14px;
+    }
+
+    h3{
+        padding:0;
+        padding-top: 15px;
+    }
+
+}
+
+
+/*JUMBOTRON TWEE*/
+
+.jumbotronwordlid{
+    margin-top:20px;
+
+    h1{
+        font-size: 50px;
+        width: 90%;
+        margin-left: 80px;
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+
+
+    p{
+        line-height: 1,5em;
+        font-weight: 300;
+        padding-top:15px;
+        width: 80%;
+        margin-left: 80px;
+        padding-bottom: 50px;
+    }
+
+    .form{
+        padding: 15px;
+        margin-top: 80px;
+        padding-bottom: 0;
+        padding-top:0;
+    
+        .balk{
+            width: 70%;
+        }
+    }
+}
+
+.wordlid {
+    img{
+        width: 60%;
+        margin-left:0px;
+        margin-top: 80px
+    }
+}
+
+
+}
+
+.form{
+
+    .submit{
+
+        margin-left: 0px;
+
+    }
+
+}

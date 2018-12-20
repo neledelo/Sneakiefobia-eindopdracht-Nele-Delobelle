@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* COLORS */
+/* FONTS */
+.rodebanner {
+  background-color: #D55A4F;
+  padding-bottom: 0;
+}
+
+.rodebanner img {
+  width: 90%;
+  margin-top: 60px;
+}
+
+@media (min-width: 1250px) {
+  .rodebanner img {
+    margin-top: 130px;
+    width: 80%;
+  }
+}
+
+.rodebanner .tekst h5 {
+  color: white;
+  font-size: 30px;
+  font: "Montserrat", sans-serif;
+  margin-top: 35px;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.rodebanner .tekst p {
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.contactgegevens {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.contactgegevens .contact i {
+  font-size: 25px;
+}
+
+.contactgegevens a {
+  color: black;
+}
+
+/*FOOTER*/
+.footercontact {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .footercontact {
+    margin-top: -220px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .rodebanner {
+    background-color: #D55A4F;
+    padding-bottom: 0;
+    height: 450px;
+    position: relative;
+  }
+  .rodebanner .tekst {
+    position: absolute;
+    right: 5%;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1300px) {
+  .rodebanner .tekst {
+    top: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  .rodebanner .tekst h5 {
+    text-align: right;
+    padding-bottom: 0;
+  }
+  .rodebanner .tekst p {
+    margin-left: 30px;
+    text-align: right;
+    padding-top: 0;
+  }
+  .contactgegevens {
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  .contactgegevens .contact i {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
